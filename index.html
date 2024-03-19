@@ -9,14 +9,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Onest:wght@100..900&display=swap" rel="stylesheet">
-
+    <link rel="icon" href="favicon.png">
 </head>
 <body>
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid justify-content-center">
+          <a class="navbar-brand" href="/index.html" id="statify">Statify</a>
+        </div>
+      </nav>
     <div class="container">
         <div id="trackList" class="row row-cols-5 g-4"></div>
     </div>
-
-    <!-- Template pour une carte de piste -->
     <template id="trackCard">
         <div class="col">
             <div class="card">
