@@ -20,6 +20,7 @@ function setTrackList(data){
         // faire un clone tu template
         const clone = template.content.cloneNode(true);
         let rank = i + 1
+        let artists= getDisplayArtists(data[i].artists);
 
         // remplir le clone
         clone.querySelector('.card-title').textContent = data[i].name;
