@@ -1,4 +1,25 @@
 #statify {
-    color: green;
+    color: #27e627;
     font-family: "Bungee", sans-serif;
+}
+
+body {
+    background-color: #222222;
+}
+
+.title{
+    color: #27e627;
+    font-family: "Bungee", sans-serif;
+    font-size: 22pt;
+}
+
+#chartbg {
+    background-color: white
+}
+
+.audio {
+    max-width: 100%;
+}
+audio::-webkit-media-controls-time-remaining-display{
+    display: none;
 }
